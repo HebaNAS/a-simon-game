@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  font-family: "Roboto", "GillSans", "Calibri", Trebuchet, sans-serif;
+}
+
+body {
+  background-image: url('../img/bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.card-bg {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.card-title-lg {
+  font-weight: 700 !important;
+  font-size: 40px !important;
+  color: rgba(0, 20, 80, 1);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.card, .card-action {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.card-action {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.card-action-font {
+  color: rgba(246,114,128, 1) !important;
+  font-weight: 500 !important;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+.card-action-font:hover {
+  color: rgba(248,177,149, 1) !important;
+  font-weight: 500 !important;
+  text-shadow: 1px 1px 1px rgba(20, 20, 20, 0.5);
+}
+
+.full-height {
+  height: inherit;
+}
+
+.hcenter {
+  justify-content: center;
+}
+
+.card-width {
+  width: 50%;
+}
+
+.card-height {
+  height: 350px;
+}
+
+.content-height {
+  height: 85%;
+}
+
+.bolden {
+  font-weight: 500 !important;
+}
