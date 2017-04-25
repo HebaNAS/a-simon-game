@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf dist && npm run && NODE_ENV=production webpack",
     "dev": " npm run && NODE_ENV=development node dev-server.js",
-    "test": "mocha --compilers js:babel-core/register ./src/js/fetchQuote.test.js"
+    "test": ""
   },
   "author": "Heba El-Shimy",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "babel-preset-stage-0": "^6.22.0",
     "chai": "^3.5.0",
     "css-loader": "^0.27.3",
+    "eslint": "^3.19.0",
     "express": "^4.15.2",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.10.1",

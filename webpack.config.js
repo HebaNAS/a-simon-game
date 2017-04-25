@@ -8,12 +8,12 @@ const PRODUCTION = process.env.NODE_ENV === 'production';
 
 var entry = PRODUCTION
     ? {
-        materialize: 'materialize-loader!./src/materialize.config',
-        main: './src/js/index.js'
+        main: './src/js/index.js',
+        p5: './src/js/p5.min.js'
     }
     : [
-        'materialize-loader!./src/materialize.config',
         './src/js/index.js',
+        './src/js/p5.min.js',
         'webpack/hot/dev-server',
         'webpack-dev-server/client?http://localhost:8080'
       ];
