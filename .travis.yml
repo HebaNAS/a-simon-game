@@ -5,6 +5,6 @@ deploy:
   provider: heroku
   api_key:
     secure: bwlwtnGEbAnA/DhaQwlVlJ5mTt7GQcf6cqGxQGOQ5/Gp8kZt7rqkziLgoS/7g9wCneEihgVn0buG8PXlKURJkhJfVxYzBQMIABYOEjV/ADCHR1+cLDZe9HaJBxTtAz21SbLEtu6bGl3P0qyjHd/Xk54BV6Gzy8LIBLZho810/TdilVPkSpBSg7BZMO1/6At/rL6VU0fVz3aSWlo5BXfrD7UsOnEmNWA8fKwC6O+p131zLeRKs6Cq8/i1UBkUj0d7DFBjZDf9DskVod7SSrRo/3bq+aOoSIpHtit3jIA241x+Xu7uK8XpV+CF64MY3i1eBC4892diN42ipcurxmMut6wWyIKjJ0uZcfGVcYbTJKtig9ru8wD1Jbp5mxcEUvwwJroFPQa+wsQOZQh5Keu247ACJAo3ybosRC+jnMWJWncNisj5+9PBfoQoZQgn2kFTI+we4DgilXa2lvf6xgMcXqqCu4OESf+40ycjs/mKNGmkxjox2WVyBz1wXj+/e1HpMvYoWZjaCsow1gt7kuWrntBocGcJsqjzQ+CixoT6P1kBmWbwT2LL8pW6yo/NWAfuA4TcCYXSwd+nnhMkzd9gJguyzsUAEwHrWuZiEY5WmrCCph7rDbs02RbBahPhxsP3KF0uUWF/LYCUD3rcZ4zwcwqy4IaQQPc76AkP/j8n3AU=
-  app: quotegenerator
+  app: a-simon-game
   on:
-    repo: HebaNAS/FCC-Random-Quote
+    repo: HebaNAS/a-simon-game
