@@ -1,0 +1,63 @@
+/*
+ * Game Colored Buttons
+ */
+
+.game__button {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    border: 10px solid rgba(0, 0, 0, 1);
+}
+
+#button1 {
+    background-color: rgba(139, 0, 0, 1);
+    border-left: 5px solid rgba(0, 0, 0, 1);
+    border-bottom: 5px solid rgba(0, 0, 0, 1);
+    border-top-right-radius: 100%;
+    right: 0;
+    top: 0;
+}
+
+#button1:hover {
+    background-color: lighten(rgba(139, 0, 0, 1), 10);
+}
+
+#button2 {
+    background-color: rgba(0, 139, 0, 1);
+    border-right: 5px solid rgba(0, 0, 0, 1);
+    border-bottom: 5px solid rgba(0, 0, 0, 1);
+    border-top-left-radius: 100%;
+    left: 0;
+    top: 0;
+}
+
+#button2:hover {
+    background-color: lighten(rgba(0, 139, 0, 1), 10);
+}
+
+#button3 {
+    background-color: rgba(255, 220, 100, 1);
+    border-top: 5px solid rgba(0, 0, 0, 1);
+    border-right: 5px solid rgba(0, 0, 0, 1);
+    border-bottom-left-radius: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+#button3:hover {
+    background-color: lighten(rgba(255, 220, 100, 1), 10);
+}
+
+#button4 {
+    background-color: rgba(0, 0, 139, 1);
+    border-top: 5px solid rgba(0, 0, 0, 1);
+    border-left: 5px solid rgba(0, 0, 0, 1);
+    border-bottom-right-radius: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+#button4:hover {
+    background-color: lighten(rgba(0, 0, 139, 1), 10);
+}

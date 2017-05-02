@@ -4,8 +4,8 @@
   "description": "Random Quote Generator",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && npm run && NODE_ENV=production webpack",
-    "dev": " npm run && NODE_ENV=development node dev-server.js",
+    "build": "rimraf dist && NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development node dev-server.js",
     "test": ""
   },
   "author": "Heba El-Shimy",
@@ -27,6 +27,7 @@
     "materialize-loader": "^1.1.2",
     "mocha": "^3.2.0",
     "node-sass": "^4.5.1",
+    "normalize.css": "^6.0.0",
     "resolve-url-loader": "^2.0.2",
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.3",
@@ -38,7 +39,7 @@
   },
   "dependencies": {
     "jquery": "^3.2.1",
-    "materialize-css": "^0.98.1",
+    "p5": "^0.5.8",
     "regenerator-runtime": "^0.10.3"
   },
   "repository": {

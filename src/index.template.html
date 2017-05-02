@@ -2,12 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Quote Generator</title>
+    <title>Simon Game</title>
   </head>
   <body>
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
+    <div class="canvas__container">
+      <div class="canvas">
+        <div class="buttons__container">
+          <div class="game__button" id="button1"></div>
+          <div class="game__button" id="button2"></div>
+          <div class="game__button" id="button3"></div>
+          <div class="game__button" id="button4"></div>
+        </div>
+        <div class="options__container">
+          <p class="game__title">Simon<span><sup>&reg;</sup></span></p>
+          <div class="control__buttons">
+            <div class="start__button">
+              <h4 class="control--title text--center">Start</h4>
+              <input class="toggle toggle--start" id="start" type="checkbox"/>
+              <label class="toggle--btn" data-tg-off="OFF" data-tg-on="ON" for="start"></label>
+            </div>
+            <div class="strict__button">
+              <h4 class="control--title text--center">Strict Mode</h4>
+              <input class="toggle toggle--strict" id="strict" type="checkbox"/>
+              <label class="toggle--btn" data-tg-off="OFF" data-tg-on="ON" for="strict"></label>
+            </div>
+          </div>
+          <div class="score__counter">
+            <h4 class="text--center control--title align--top">Counter</h4>
+            <div class="counter">
+              20
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

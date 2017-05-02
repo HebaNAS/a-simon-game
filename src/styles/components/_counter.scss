@@ -1,0 +1,37 @@
+/*
+ * Counter section
+ */
+
+.score__counter {
+    margin-top: -8px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex: row;
+    flex-flow: wrap;
+    position: static;
+}
+
+.align--top {
+    margin-bottom: 2px;
+    flex: 1 100%;
+}
+
+.counter {
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(20, 20, 20, 0.8);
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+    font-family: 'Digital', sans-serif;
+    color: rgba(0, 200, 0, 1);
+    font-size: 3em;
+    line-height: 1.05em;
+
+    > .control--title {
+        margin-bottom: -50px;
+    }
+}

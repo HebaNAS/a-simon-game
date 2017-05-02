@@ -1,0 +1,22 @@
+@import './_buttons';
+@import './_options';
+@import './_start_strict';
+@import './_counter';
+@import './_media';
+
+html, body {
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.canvas__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.canvas {
+    height: 40vw;
+    width: 40vw;
+    position: relative;
+}

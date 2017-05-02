@@ -8,12 +8,10 @@ const PRODUCTION = process.env.NODE_ENV === 'production';
 
 var entry = PRODUCTION
     ? {
-        main: './src/js/index.js',
-        p5: './src/js/p5.min.js'
+        main: './src/js/index.js'
     }
     : [
         './src/js/index.js',
-        './src/js/p5.min.js',
         'webpack/hot/dev-server',
         'webpack-dev-server/client?http://localhost:8080'
       ];
