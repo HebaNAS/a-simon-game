@@ -624,4 +624,9 @@ canvas {
   margin-top: 200px;
   margin-left: 200px; }
 
-/*# sourceMappingURL=main-b9d0c643bb.css.map*/
+@font-face {
+  font-family: 'Digital';
+  src: url(/fonts/DS-DIGI.ttf) format("truetype");
+  /* Safari, Android, iOS */ }
+
+/*# sourceMappingURL=main-e4eb35092c.css.map*/
