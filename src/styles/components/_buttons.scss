@@ -17,10 +17,10 @@
     border-top-right-radius: 100%;
     right: 0;
     top: 0;
-}
 
-#button1:hover {
-    background-color: lighten(rgba(139, 0, 0, 1), 10);
+    &.hover {
+        background-color: lighten(rgba(139, 0, 0, 1), 10);
+    }
 }
 
 #button2 {
@@ -30,10 +30,10 @@
     border-top-left-radius: 100%;
     left: 0;
     top: 0;
-}
 
-#button2:hover {
-    background-color: lighten(rgba(0, 139, 0, 1), 10);
+    &.hover {
+        background-color: lighten(rgba(0, 139, 0, 1), 10);
+    }
 }
 
 #button3 {
@@ -43,10 +43,10 @@
     border-bottom-left-radius: 100%;
     left: 0;
     bottom: 0;
-}
-
-#button3:hover {
-    background-color: lighten(rgba(255, 220, 100, 1), 10);
+    
+    &.hover {
+        background-color: lighten(rgba(255, 220, 100, 1), 10);
+    }
 }
 
 #button4 {
@@ -56,8 +56,8 @@
     border-bottom-right-radius: 100%;
     right: 0;
     bottom: 0;
-}
-
-#button4:hover {
-    background-color: lighten(rgba(0, 0, 139, 1), 10);
+    
+    &.hover {
+        background-color: lighten(rgba(0, 0, 139, 1), 10);
+    }
 }

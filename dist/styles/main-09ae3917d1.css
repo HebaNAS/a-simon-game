@@ -385,9 +385,8 @@ template {
   border-top-right-radius: 100%;
   right: 0;
   top: 0; }
-
-#button1:hover {
-  background-color: #be0000; }
+  #button1.hover {
+    background-color: #be0000; }
 
 #button2 {
   background-color: #008b00;
@@ -396,9 +395,8 @@ template {
   border-top-left-radius: 100%;
   left: 0;
   top: 0; }
-
-#button2:hover {
-  background-color: #00be00; }
+  #button2.hover {
+    background-color: #00be00; }
 
 #button3 {
   background-color: #ffdc64;
@@ -407,9 +405,8 @@ template {
   border-bottom-left-radius: 100%;
   left: 0;
   bottom: 0; }
-
-#button3:hover {
-  background-color: #ffe897; }
+  #button3.hover {
+    background-color: #ffe897; }
 
 #button4 {
   background-color: darkblue;
@@ -418,9 +415,8 @@ template {
   border-bottom-right-radius: 100%;
   right: 0;
   bottom: 0; }
-
-#button4:hover {
-  background-color: #0000be; }
+  #button4.hover {
+    background-color: #0000be; }
 
 /*
  * Game Interface & Options Panel
@@ -629,4 +625,4 @@ canvas {
   src: url(/fonts/DS-DIGI.ttf) format("truetype");
   /* Safari, Android, iOS */ }
 
-/*# sourceMappingURL=main-e4eb35092c.css.map*/
+/*# sourceMappingURL=main-09ae3917d1.css.map*/
