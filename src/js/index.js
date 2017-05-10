@@ -92,6 +92,7 @@ function newGame() {
 function clearGame() {
   game.newSeq = [];
   game.counter = 0;
+  game.update(game.counterButton);
   emptyPlayerSeq();
 }
 
