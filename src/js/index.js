@@ -155,7 +155,7 @@ function playerTurn(move) {
       var targ = move + 'Sound';
       game.sounds[targ].play();
       if (game.playerSeq.length === game.counter+1) {
-        if(game.counter == 4){
+        if(game.counter == 20){
           alert('You won!');
         } else {
           alert('Next round!');
